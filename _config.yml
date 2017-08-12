@@ -1,0 +1,13 @@
+title: ReadingNotes
+author: zhilin.czl
+description: The only thing i know in the world is i nothing about it
+
+highlighter: null
+permalink: /:title
+
+url:
+baseurl:
+
+# Custom options:
+# color_scheme: azul|ruby|amber|avocado
+# color_scheme: avocado

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+  <main class="container {% if site.color_scheme %}{{ site.color_scheme }}{% else %}avocado{% endif %}">
+      {% if page.title == "Home" %}
+      <header class="fadeInLeft animated">
+      {% else %}
+      <header>
+      {% endif %}
+        <div>
+          <a href="{{ site.url }}" id="logo" title="{{ site.title }}"
+             style="background-image: url({{ '/assets/images/15.png' | relative_url }});"></a>
+        </div>
+
+        {% include navigation.html %}
+
+      </header>
+      {{ content }}
+
+      <footer>
+        <p style="font-family:verdana;font-size:60%;color:#5D035B">
+            读一些无用的书,都是为了在一切已知之外,保留一个超越自己的机会</Br>
+              ---梁文道
+        </p>
+      </footer>
+    </main>
+
+    <!-- scripts -->
+    <script src="{{ '/assets/js/fluidvids.min.js' | relative_url }}"></script>
+  </body>
+</html>

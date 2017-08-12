@@ -1,0 +1,16 @@
+- url: /
+  title: Home
+  category: Home
+- url: economic
+  title: 经济
+  category: economic
+- url: philosophy
+  title: 哲学
+  category: philosophy
+- url: psychology
+  title: 心理
+  category: psychology
+- url: medical
+  title: 中医
+  category: medical
+
